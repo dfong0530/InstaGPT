@@ -1,0 +1,13 @@
+certifi==2023.5.7
+charset-normalizer==2.0.12
+dataclasses==0.8
+idna==3.4
+instagrapi==1.16.20
+Pillow==8.4.0
+pycryptodomex==3.14.1
+pydantic==1.9.1
+PySocks==1.7.1
+python-dotenv==0.20.0
+requests==2.27.1
+typing_extensions==4.1.1
+urllib3==1.26.16
