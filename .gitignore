@@ -1,3 +1,5 @@
 venv/
 .env
 notes.txt
+blacklist.csv
+__pycache__/

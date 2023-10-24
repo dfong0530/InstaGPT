@@ -4,6 +4,7 @@ class InstagramAccount:
 
     def __init__(self, username, password):
         self.cl = Client()
+        self.cl.delay_range = [1, 3]
         self.cl.login(username, password)
         self.media_id = None
 
