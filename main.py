@@ -1,3 +1,5 @@
+#!/path/to/your_project/INSTAGRAM_GPT/venv/bin/python3
+
 from dotenv import load_dotenv
 from instagram import *
 from gpt import GetResponseFromChatGPT
@@ -33,7 +35,7 @@ for comment in comments:
             users[comment.user.username] = 0
 
         users[comment.user.username] += 1
-        if users[comment.user.username] == 3:
+        if users[comment.user.username] == 5:
             blacklist.add(comment.user.username)
 
 
